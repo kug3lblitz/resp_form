@@ -8,4 +8,63 @@ html {
   -moz-box-sizing: inherit;
   box-sizing: inherit; }
 
+/* breakpoints */
+/* colors
+
+blue
+white */
+/* dimensions */
+/* meat n taters */
+body {
+  background-color: #62aca2; }
+
+.container {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-left: 7%;
+  max-width: 100%;
+  color: white;
+  font-family: Courier, sans-serif;
+  vertical-align: middle; }
+  .container::after {
+    clear: both;
+    content: "";
+    display: table; }
+  .container:last-child {
+    margin-right: 0; }
+
+.column {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%;
+  vertical-align: middle;
+  margin-top: 250px;
+  margin-bottom: 250px; }
+  .column:last-child {
+    margin-right: 0; }
+  @media screen and (max-width: 800px) {
+    .column {
+      margin-right: 0;
+      float: left;
+      display: block;
+      margin-right: 16.03631%;
+      width: 41.98184%; }
+      .column:last-child {
+        margin-right: 0; } }
+  @media screen and (max-width: 400px) {
+    .column {
+      margin-right: 0;
+      float: left;
+      display: block;
+      margin-right: 38.19821%;
+      width: 100%; }
+      .column:last-child {
+        margin-right: 0; } }
+
 /*# sourceMappingURL=main.css.map */
