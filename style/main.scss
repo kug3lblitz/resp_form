@@ -1,4 +1,38 @@
 @import 'bourbon/bourbon';
+$visual-grid: true;
+$visual-grid-color: #fff332;
+$visual-grid-size: 1600px;
 @import 'neat/neat';
 
 $border-box-sizing: true !default;
+
+/* breakpoints */
+
+$tablet: new-breakpoint(max-width 391px 4);
+$mobile: new-breakpoint(max-width 390px 1);
+
+/* colors
+
+blue
+white */
+$highlightblue: #4398c9;
+
+/* images */
+
+$image-width: 100%;
+$image-height: 100%;
+
+/* dimensions */
+
+$input-width: 100%;
+$top-margin: 30px;
+
+/* meat n taters */
+
+.container {
+  @include outer-container;
+  background-color: blue;
+  max-width: 100%;
+  color: white;
+  font-family: Courier, sans-serif;
+}
