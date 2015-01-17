@@ -45,8 +45,9 @@ body {
   vertical-align: middle;
 
   @include media($tablet) {
-    @include omega;
+    //@include omega;
     @include span-columns(1);
+    margin-right: inherit;
   }
 
   @include media($mobile) {

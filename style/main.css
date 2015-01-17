@@ -50,11 +50,11 @@ body {
     margin-right: 0; }
   @media screen and (max-width: 800px) {
     .column {
-      margin-right: 0;
       float: left;
       display: block;
       margin-right: 16.03631%;
-      width: 41.98184%; }
+      width: 41.98184%;
+      margin-right: inherit; }
       .column:last-child {
         margin-right: 0; } }
   @media screen and (max-width: 400px) {
